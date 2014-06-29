@@ -1,12 +1,10 @@
 html{
 	padding:30px;
-	
 	height:100%;
 }
 
-
 body{
-	background-image: url('background1.jpg');
+	background-image: url('Images/background1.jpg');
 	height:100%;
 	width:100;
 	background-size: 100%;
@@ -21,17 +19,6 @@ body{
 	background-color:transparent;
 
 }
-
-/*#hey{
-	float:center;
-	margin-left: 100px;
-	color:white;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	/*font-family: "Futura";*/
-	/*margin-top:30px;
-	font-size:40px;
-	letter-spacing: 1px;
-}*/
 
 #about2{
 	display:table;
@@ -53,7 +40,6 @@ body{
 	letter-spacing: 0px;
 }
 
-
 a:-webkit-any-link{
 color: white;
 text-decoration: none;
@@ -64,7 +50,6 @@ a:hover{
 	color:#ff0033;
 }
 
-
 div{
 	color:white;
 	font-family:'Goudy Bookletter 1911', Georgia, Times, serif;
@@ -72,15 +57,13 @@ div{
 	display: inline-block;
 	margin:10px;
 	float:center;
-	
 }
 
 div:hover{
 	display:inline-block;
 	color:#ff0033;
 	float:center;
-	margin:10px;
-	
+	margin:10px;	
 }
 #hobbies{
 	color:white;
@@ -89,10 +72,8 @@ div:hover{
 	display:table;
 	margin-right:auto;
 	margin-left:auto;
-
-
 }
-/**/
+
 
 
 
