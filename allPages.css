@@ -10,7 +10,7 @@ body{
 	float:right;
 	margin:-20px 0px -20px -20px;
 
-	background-image: url('/Images/background1.jpg');
+	background: url('/Images/background1.JPG');
 	background-size:100%;
 	background-repeat:no-repeat;
 	border:5px;
