@@ -1,0 +1,32 @@
+
+
+html{
+
+	background-color:#ffebcd;
+	width:1000px;
+	
+	
+
+}
+
+a{
+	font-family:Verdana;
+	color:##660066;
+	text-decoration: none;
+	/*changes the properties of links*/
+}
+
+#one{
+	height: 50 px;
+	width:50px;
+	border:5px dashed #ff0000;
+	margin: auto;
+
+}
+
+
+
+
+
+
+

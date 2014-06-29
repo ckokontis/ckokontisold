@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+<!-- css in html -->
+		<style> 
+			p{
+				color: purple;
+				/*this is a CSS in html, making all the text purple by just setting this in one place^*/
+				/*p{} is a selector, like an HTML <p> for CSS */
+			}
+		</style>
+
+<!-- link -->
+		<link type="text/css" rel="yourstylesheet" href="yourstylesheet.css"> </link>
+		<!-- <link links the HTML to the css guide. type always="text/css"  -->
+		<title> Website title in the tab </title>
+	</head>
+
+
+<!-- a, href, img, src -->
+	<body>
+		<h1>heading 1 </h1>
+		<p> body paragraph </p>
+		<p> <a href="website url to link image to.com"> <img src="image url to show" alt="HTML tutorial" width="50" height="50"> </a> </p>
+<!-- href tells the link where you want it to go (the url) dont forget to close <a> with </a> -->
+<!-- src shows the image -->
+<!-- dont need to close <img> -->
+<!-- when using ordinary <a> and </a>, you're leading to another link. When putting <img url inside of </a> instead of a website link, you're linking an image so onclick it'll go to the website -->
+
+
+<!-- target=_blank -->
+		<p><a href="url.com" target="_blank">visit this url</a> </p>
+		<!-- target="_blank" specifies where to open the linked document (visit this url leads you to url.com) use _blank for new tab/window, _self to open in the same tab -->
+
+
+<!-- span -->
+	<p>This text is black, except for the word <span style="color:red">red!</span></p>
+	<!-- span styles smaller sections of text. specify style like so inside of span tag. -->
+
+
+<!-- lists -->
+<ul>
+	<li style="text-align:center"> ...level one, number one...
+		<!-- to align text, <p/h1/div> style="text-align:center/left/right"> -->
+	<li> ...level two, number two...
+	<ol start="1">
+		<li>...level three, number one...
+		<li value= "5">...level three, number three...
+		<li>...level four, number one...
+	</ol>
+	<li>...level one, number two...
+</ul>
+
+
+<!-- to create a table: -->
+<!-- under <body>. border collapse gives no boarders around cells/table-->
+	<table style="border-collapse:collapse;">
+
+			
+	 		<thead>
+
+			
+				<th colspan="2">Famous Monsters</th><th>Birth Year</th>
+			
+			
+
+			 <!--table head-information about the table. within a row of the table head, insert th as headers with "famous Monsters" and "birth year" as values in the cells--> 
+			<!-- colspan="2" makes the title span 2 columns instead of 1 -->
+			</thead>
+
+		<tbody>
+		
+			<tr> <td>King Kong</td> <td>1933</td> <td>more info</td> </tr> 
+			<!-- this creates 1 row with three columns and inputs "king kong" and "1933" as values in the cells-->
+
+
+		
+	</tbody>
+</table>
+
+
+
+	</body>
+
+
+
+</html>
+
+
+<!-- use em 's in replacement of px to auto adjust to phone screens.  -->
+
+
+
+
+

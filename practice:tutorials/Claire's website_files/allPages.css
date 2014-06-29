@@ -1,0 +1,73 @@
+
+
+html{
+
+	background-color:#ffebcd;
+	width:870px;
+	
+	
+
+}
+#header {
+	height: 50px;
+	background-color: #F38630;
+	margin-bottom: 10px;
+}
+
+.left {
+	height: 300px;
+	width: 150px;
+	background-color: #A7DBD8;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.right {
+	height: 300px;
+	width: 450px;
+	background-color: #E0E4CC;
+	float: right;
+	margin-bottom: 10px;
+}
+
+#footer {
+	height: 50px;
+	background-color: #69D2E7;
+	clear:both
+
+}
+
+a{
+	font-family:Verdana;
+	color:##660066;
+	text-decoration: none;
+	/*changes the properties of links*/
+}
+
+#one{
+	height: 200px;
+	width:290px;
+	border:5px dashed #ff0000;
+	margin: 20px 330px 20px 330px;
+	/*putting 330px left to the margin between the margin and div effectively moves the div 330 px to the right. 
+	putting -330px left margin will move the div to the left. moves them off the page oftentimes*/
+
+}
+
+#header-links{
+
+	float: right;
+}
+
+
+
+/* # means id, .class means class. these are specified in the HTML. ID refers to a specific element in a div/p--it's unique. 
+class refers to elements within a div or p that have specific characteristics. for example, if 
+a couple elements in a div are classified as class=center, then when you call div.center in the .css file, 
+you're applying changes to those elements in that specific class*/
+
+
+
+
+
+
