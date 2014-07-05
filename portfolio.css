@@ -1,33 +1,53 @@
 html{
 	padding:30px;
+	font-family: "HelveticaNeue-Light";
 	height:100%;
 }
 
 body{
+	background-image: url('Images/background1.jpg');
+	height:100%;
+	width:100;
 	background-size: 100%;
 	background-repeat:no-repeat;
 }
 
-#back{
+a{
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	text-decoration: none;
-	color:black;
-	border-color:black;
+	color:white;
+	border-color:white;
 	padding:2px;
 	border:2px;
 	border-style:solid;
 	margin-top:0px;
-	padding-left:15px;
-	padding-right:15px;
-	display:inline-block;
 
 }
 
-h1{
-	text-align: justify;
-	color:black;
+#homepage:hover
+{
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	margin-top:10px;
+	text-decoration: none;
+	color:#ff0033;
+	border-color:#ff0033;
+	padding:2px;
+	border:2px;
+	border-style:solid;
+	margin-top:0px;
+	margin-left:10px;
+	display:inline-block;
+}
+
+#homepage{
+	display:inline-block;
+}
+
+
+
+h1{
+	color:white;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	margin-top:40px;
 	font-size:40px;
 	letter-spacing: 1px;
 	display: inline-block;
@@ -39,19 +59,6 @@ h1{
 	float:right;
 	display: inline-block;
 	background-color:transparent;
-	width:25px;
-}
-
-#collection-images{
-	display:inline-block;
-	width:300.8px;
-	height:200px;
-	background-repeat: no-repeat;
-}
-
-#images{
-	width:300.8px;
-	display:inline-block;
-	margin:15px 7px 25px 7px;
+	border:none;
 }
 

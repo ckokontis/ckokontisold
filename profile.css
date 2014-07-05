@@ -11,6 +11,38 @@ body{
 	background-repeat:no-repeat;
 }
 
+div:hover{
+	display:inline-block;
+	color:#ff0033;
+	float:center;
+	margin:10px;	
+}
+
+/*a:hover{
+	display:inline-block;
+	color:#ff0033;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	margin-top: auto;
+	margin-right:auto;
+	margin-left:auto;
+}*/
+
+a{
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color:black;
+	border-color:black;
+	padding:2px;
+	border:2px;
+	border-style:solid;
+	margin-top:0px;
+
+}
+
+#homepage{
+	display:inline-block;
+}
+
 #header-links{
 	margin-top:10px;
 	margin-right:5px;
@@ -22,16 +54,13 @@ body{
 
 #about2{
 	display:table;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	margin-top: auto;
 	margin-right:auto;
 	margin-left:auto;
 }
-
-#about{
+#about2:hover{
 	color:white;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	/*font-family: "Futura";*/
-	font-weight:normal;
 }
 
 #line{
@@ -46,7 +75,7 @@ text-decoration: none;
 cursor: auto;
 }
 
-a:hover{
+div:hover{
 	color:#ff0033;
 }
 
@@ -59,12 +88,7 @@ div{
 	float:center;
 }
 
-div:hover{
-	display:inline-block;
-	color:#ff0033;
-	float:center;
-	margin:10px;	
-}
+
 #hobbies{
 	color:white;
 	font-family:'Goudy Bookletter 1911', Georgia, Times, serif;
@@ -79,5 +103,3 @@ div:hover{
 
 
 
-
-;

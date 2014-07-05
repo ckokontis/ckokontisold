@@ -12,6 +12,20 @@ body{
 	background-repeat:no-repeat;
 }
 
+a{
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color:white;
+}
+
+#homepage{
+	display:inline-block;
+	border-color:white;
+	padding:1px 10px 0.5px 5px;
+	border:2px;
+	border-style:solid;
+}
+
 h1{
 	color:white;
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
@@ -28,5 +42,6 @@ h1{
 	float:right;
 	display: inline-block;
 	background-color:transparent;
+	border:none;
 }
 
