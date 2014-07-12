@@ -4,28 +4,33 @@ html{
 	height:100%;
 }
 
-body{
+body{	
 	width:100%;
 	height:100%;
 	float:right;
-	margin:-20px 0px -20px -20px;
 
-	background-image: url('Images/background1.JPG');
+	background-image: url('Images/IMGP70291.JPG');
 	background-size:100%;
 	background-repeat:no-repeat;
-	border:5px;
 	margin-top:-7px;
+	/*border:5px;
 	border-style:solid;
-	border-color:white;
+	border-color:white;*/
 }
 
+h1
+{
+}
+
+div:hover {
+  opacity:1;
+}	
 
 h1{
 	text-align: justify;
 	color:white;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-size:40px;
-	letter-spacing: 1px;
+	font-family: 'Raleway', Helvetica, Arial;
+	letter-spacing: 2px;
 }
 
 #name-header {
@@ -35,8 +40,7 @@ h1{
 	clear:both;
 }
 
-#name-header:hover
-{
+#name-header:hover{
 	color:white;
 	text-align: center;
 	margin-left:10px;
@@ -56,16 +60,18 @@ h1{
 #line{
 	color:white;
 	display:inline-block;
+	margin-right:5px;
+	margin-left: 5px;
 }
 
 a:-webkit-any-link{
-color: white;
+color: #ff0033;
 text-decoration: none;
 cursor: auto;
 }
 
 a:hover{
-	color:#ff0033;
+	color:#ff6666;
 }
 
 p{
@@ -74,7 +80,7 @@ p{
 	display:inline-block;
 	text-decoration: none;
 	letter-spacing: 1px;
-	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	font-family: 'Helvetica', Georgia, Times, serif;
 }
 
 p:hover{

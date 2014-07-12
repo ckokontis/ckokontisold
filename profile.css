@@ -11,12 +11,6 @@ body{
 	background-repeat:no-repeat;
 }
 
-div:hover{
-	display:inline-block;
-	color:#ff0033;
-	float:center;
-	margin:10px;	
-}
 
 /*a:hover{
 	display:inline-block;
@@ -27,57 +21,70 @@ div:hover{
 	margin-left:auto;
 }*/
 
-a{
+#back{
+	font-size:15px;
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	text-decoration: none;
-	color:black;
-	border-color:black;
+	color:#ff0033;
+	padding:2px;
+	border:2px;
+	display:inline-block;
+	border-style:solid;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+
+#back:hover{
+	font-size:15px;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	text-decoration: none;
 	padding:2px;
 	border:2px;
 	border-style:solid;
-	margin-top:0px;
-
-}
-
-#homepage{
 	display:inline-block;
+	border-color:#ff0033;
+	background-color:#ff0033;
+	color:white;
+	padding-left:15px;
+	padding-right:15px;	
 }
 
 #header-links{
 	margin-top:10px;
-	margin-right:5px;
+	margin-right:2px;
 	float:right;
 	display: inline-block;
 	background-color:transparent;
-
 }
 
-#about2{
+#about{
 	display:table;
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	margin-top: auto;
 	margin-right:auto;
 	margin-left:auto;
+	font-style:thin;
 }
-#about2:hover{
+
+#about:hover{
 	color:white;
+	margin-top: auto;
+	margin-right:auto;
+	margin-left:auto;
 }
 
 #line{
 	color:white;
-	display:inline-block;
+	display:table;
 	letter-spacing: 0px;
 }
 
-a:-webkit-any-link{
+/*a:-webkit-any-link{
 color: white;
 text-decoration: none;
 cursor: auto;
-}
-
-div:hover{
-	color:#ff0033;
-}
+}*/
 
 div{
 	color:white;
@@ -90,12 +97,18 @@ div{
 
 
 #hobbies{
+
 	color:white;
 	font-family:'Goudy Bookletter 1911', Georgia, Times, serif;
-	font-size:25px;
+	font-size:20px;
 	display:table;
+	float:center;
 	margin-right:auto;
 	margin-left:auto;
+}
+
+#hobbies:hover{
+	color:#ff0033;
 }
 
 
