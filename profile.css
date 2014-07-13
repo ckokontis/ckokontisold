@@ -25,13 +25,14 @@ body{
 	font-size:15px;
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	text-decoration: none;
-	color:#ff0033;
+	color:white;
 	padding:2px;
 	border:2px;
 	display:inline-block;
 	border-style:solid;
 	padding-left:15px;
 	padding-right:15px;
+	border-radius: 3px;
 }
 
 
@@ -43,11 +44,10 @@ body{
 	border:2px;
 	border-style:solid;
 	display:inline-block;
-	border-color:#ff0033;
-	background-color:#ff0033;
-	color:white;
+	color:#ff0033;
 	padding-left:15px;
 	padding-right:15px;	
+	border-radius: 3px;
 }
 
 #header-links{
@@ -64,7 +64,6 @@ body{
 	margin-top: auto;
 	margin-right:auto;
 	margin-left:auto;
-	font-style:thin;
 }
 
 #about:hover{

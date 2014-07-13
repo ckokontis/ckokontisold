@@ -1,31 +1,25 @@
 html{
-	padding:30px;
-	font-family: 'HelveticaNeue-Light', serif;
+	padding:10px;
+	font-family: 'Raleway', 'HelveticaNeue-Light';
 	height:100%;
 }
 
 body{	
 	width:100%;
 	height:100%;
-	float:right;
-
 	background-image: url('Images/IMGP70291.JPG');
 	background-size:100%;
 	background-repeat:no-repeat;
-	margin-top:-7px;
-	/*border:5px;
-	border-style:solid;
-	border-color:white;*/
+	margin-top:0px;
 }
 
-h1
-{
+#header-links{
+	margin-top:10px;
+	margin-right:5px;
+	float:right;
+	display: inline-block;
+	background-color:transparent;
 }
-
-div:hover {
-  opacity:1;
-}	
-
 h1{
 	text-align: justify;
 	color:white;
@@ -39,7 +33,7 @@ h1{
 	float:left;
 	clear:both;
 }
-
+/*
 #name-header:hover{
 	color:white;
 	text-align: center;
@@ -47,15 +41,9 @@ h1{
 	float:left;	
 	display:inline-block;
 	clear:both;
-}
+}*/
 
-#header-links{
-	margin-top:10px;
-	margin-right:5px;
-	float:right;
-	display: inline-block;
-	background-color:transparent;
-}
+
 
 #line{
 	color:white;
@@ -80,7 +68,7 @@ p{
 	display:inline-block;
 	text-decoration: none;
 	letter-spacing: 1px;
-	font-family: 'Helvetica', Georgia, Times, serif;
+	font-family: 'HelveticaNeue-Light', Georgia, Times, serif;
 }
 
 p:hover{
@@ -90,7 +78,7 @@ p:hover{
 	color:#ff0033;
 }
 
-#gallery{
+#portfolio{
 	height:10px;
 	margin-top:80px;
 	margin-left: 10px;
