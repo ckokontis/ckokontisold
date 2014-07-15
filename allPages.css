@@ -4,10 +4,22 @@ html{
 	height:100%;
 }
 
+@font-face {
+  font-family: 'Anders';
+  src: url('Anders.eot'); /* IE9 Compat Modes */
+  src: url('Anders.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Anders.woff') format('woff'), /* Modern Browsers */
+       url('Anders.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Anders.svg#b307360d26704b508dad548d1852c5fa') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
 body{	
 	width:100%;
 	height:100%;
-	background-image: url('Images/IMGP5637.jpg');
+	background-image: url('Images/IMG79.jpg');
 	background-size:100%;
 	background-repeat:no-repeat;
 	margin-top:0px;
@@ -23,7 +35,7 @@ body{
 h1{
 	text-align: justify;
 	color:white;
-	font-family: 'Raleway', Helvetica, Arial;
+	font-family: 'Anders', Helvetica, Arial;
 	letter-spacing: 2px;
 }
 
