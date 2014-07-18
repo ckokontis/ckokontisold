@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Dense';
+  src: url('Dense-Regular.eot'); /* IE9 Compat Modes */
+  src: url('Dense-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Dense-Regular.woff') format('woff'), /* Modern Browsers */
+       url('Dense-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Dense-Regular.svg#fec9f6fcb4968bdb55d51825d606908a') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

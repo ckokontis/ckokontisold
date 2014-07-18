@@ -1,19 +1,43 @@
 html{
 	padding:10px;
-	font-family: 'Raleway', 'HelveticaNeue-Light';
+	font-family: 'Glamor Light', 'HelveticaNeue-Light';
 	height:100%;
 }
 
-@font-face {
+/*@font-face {
+  font-family: 'Dense';
+  src: url('Dense-Regular.eot'); 
+  src: url('Dense-Regular.eot?#iefix') format('embedded-opentype'), 
+       url('Dense-Regular.woff') format('woff'),  
+       url('Dense-Regular.ttf')  format('truetype'), 
+       url('Dense-Regular.svg#fec9f6fcb4968bdb55d51825d606908a') format('svg'); /* Legacy iOS */
+ /*      
+  font-style:   normal;
+  font-weight:  400;
+}*/
+
+/*@font-face {
   font-family: 'Anders';
-  src: url('Anders.eot'); /* IE9 Compat Modes */
-  src: url('Anders.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('Anders.woff') format('woff'), /* Modern Browsers */
-       url('Anders.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('Anders.svg#b307360d26704b508dad548d1852c5fa') format('svg'); /* Legacy iOS */
+  src: url('Anders.eot');  
+  src: url('Anders.eot?#iefix') format('embedded-opentype'),
+       url('Anders.woff') format('woff'), 
+       url('Anders.ttf')  format('truetype'),
+       url('Anders.svg#b307360d26704b508dad548d1852c5fa') format('svg');  
        
   font-style:   normal;
   font-weight:  400;
+}*/
+
+@font-face {
+  font-family: 'Glamor Light';
+  src: url('Glamor-Light.eot'); /* IE9 Compat Modes */
+  /*src: url('Glamor-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */*/
+       url('Glamor-Light.woff') format('woff'), /* Modern Browsers */
+       url('Glamor-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Glamor-Light.svg#826fc26f17b04429d0d0d92465b2bb87') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
 }
 
 body{	
@@ -35,7 +59,7 @@ body{
 h1{
 	text-align: justify;
 	color:white;
-	font-family: 'Anders', Helvetica, Arial;
+	font-family: 'Glamor Light', Helvetica, Arial;
 	letter-spacing: 2px;
 }
 
@@ -76,7 +100,8 @@ p{
 	display:inline-block;
 	text-decoration: none;
 	letter-spacing: 1px;
-	font-family: 'HelveticaNeue-Light', Georgia, Times, serif;
+	font-family: 'Pontano+Sans';
+	/*, Georgia, Times, serif;*/
 }
 
 p:hover{

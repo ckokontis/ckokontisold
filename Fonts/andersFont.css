@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Anders';
+  src: url('Anders.eot'); /* IE9 Compat Modes */
+  src: url('Anders.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Anders.woff') format('woff'), /* Modern Browsers */
+       url('Anders.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Anders.svg#b307360d26704b508dad548d1852c5fa') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

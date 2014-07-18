@@ -13,7 +13,7 @@ thead{
 	text-decoration: none;
 	color:black;
 	}
-	
+
 #header-links{
 	margin-top:relative;
 	margin-right:5px;
@@ -79,10 +79,10 @@ td{
 	z-index: 10;
 	/*margin-top:1em;
     margin-left:3em;*/
-    top: 10%;
-    right:10%;
-    bottom:10%;
-    left: 10%;
+    top: -20px;
+    right:20px;
+    bottom:20px;
+    left: 20px;
 }
 
 
