@@ -59,7 +59,7 @@ body{
 h1{
 	text-align: justify;
 	color:white;
-	font-family: 'Glamor Light', Helvetica, Arial;
+	font-family: 'Raleway', Helvetica, Arial;
 	letter-spacing: 2px;
 }
 
@@ -100,7 +100,7 @@ p{
 	display:inline-block;
 	text-decoration: none;
 	letter-spacing: 1px;
-	font-family: 'Pontano+Sans';
+	font-family: 'Goudy+Bookletter+1911';
 	/*, Georgia, Times, serif;*/
 }
 
