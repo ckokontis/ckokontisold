@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Glamor Light';
+  src: url('Glamor-Light.eot'); /* IE9 Compat Modes */
+  src: url('Glamor-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Glamor-Light.woff') format('woff'), /* Modern Browsers */
+       url('Glamor-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Glamor-Light.svg#826fc26f17b04429d0d0d92465b2bb87') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+

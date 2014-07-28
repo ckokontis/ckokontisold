@@ -23,7 +23,7 @@ body{
 
 #back{
 	font-size:15px;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-family: 'Futura', Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	color:black;
 	padding:2px;
@@ -39,7 +39,7 @@ body{
 #back:hover{
 	color:#ff0033;
 	font-size:15px;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-family: 'Futura', Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	padding:2px;
 	border:2px;
@@ -61,7 +61,7 @@ body{
 
 #about{
 	display:table;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-family: 'Futura', Helvetica, Arial, sans-serif;
 	margin-top: auto;
 	margin-right:auto;
 	margin-left:auto;
@@ -109,6 +109,10 @@ div{
 
 #hobbies:hover{
 	color:#ff0033;
+}
+
+ul{
+	display:inline-block;
 }
 
 
