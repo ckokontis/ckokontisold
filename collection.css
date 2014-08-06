@@ -1,54 +1,44 @@
 html{
-	padding:20px 20px 20px 20px;
+	padding:20px 0px 20px 50px;
 }
 
-body{
-	background-size: 100%;
-	background-repeat:no-repeat;
-}
+
+
 
 thead{
-	font-family: 'Futura', Helvetica, Arial, sans-serif;
-	font-size: 300%;
+	font-family: 'Sanchez', Helvetica, Arial, sans-serif;
+	font-size: 400%;
 	letter-spacing: 3px;
 	text-decoration: none;
 	color:black;
 	}
 
 #back{
-	position:relative;
-	z-index:100px;
-	font-family: 'Futura', Helvetica, Arial, sans-serif;
+	/*position:relative;*/
+	font-family: 'Sanchez', Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	text-decoration: none;
 	color:black;
+
+	
+
 	border:3px;
-	padding:2px;
 	border-style:solid;
+	border-radius:3px;
+
 	margin-top:20px;
 	margin-left:20px;
+
+	padding:2px;
 	padding-left:15px;
 	padding-right:15px;
-	border-radius:3px;
+	
 	display:inline-block;
 }
 
 #back:hover{
-	position:relative;
-	z-index: 100px;
-	font-family: 'Futura', Helvetica, Arial, sans-serif;
-	text-decoration: none;
 	color:#ff0033;
-	border-color:#ff0033;
-	padding:2px;
-	border:3px;
-	border-style:solid;
-	margin-top:20px;
-	margin-left:20px;
-	padding-left:15px;
-	padding-right:15px;
-	border-radius:3px;
-	display:inline-block;
+	
 }
 
 
@@ -57,9 +47,7 @@ img{
 	margin-top:10em;
 }
 
-td{
-	padding-left:10px;
-}
+
 
 /*#image1:hover{
 	width:80%;

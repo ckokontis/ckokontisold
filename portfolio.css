@@ -1,57 +1,43 @@
 html{
-	padding:20px 20px 20px 20px;
+	padding:8px 0px 0px 30px;
 }
 
-body{
-	background-size: 100%;
-	background-repeat:no-repeat;
+#test{
+	left:50%;
+	right:50%;
 }
-
 thead{
-	font-family: 'Futura', Helvetica, Arial, sans-serif;
+	font-family: 'Sanchez', Helvetica, Arial, sans-serif;
 	font-size: 300%;
 	letter-spacing: 3px;
 	text-decoration: none;
 	color:black;
 	}
 
-#header-links{
-	margin-top:relative;
-	margin-right:5px;
-	float:right;
-	display: inline-block;
-	background-color:transparent;
-	border:none;
-}
+
 	#back{
-	font-family: 'Futura', Helvetica, Arial, sans-serif;
+	font-family: 'Sanchez', Helvetica, Arial, sans-serif;
+	font-size:15px;
 	text-decoration: none;
 	color:black;
-	padding:2px;
+	
 	border:2px;
 	border-style:solid;
 	border-radius: 3px;
-	margin-top:10px;
-	margin-left:10px;
-	padding-right:15px;
-	padding-left: 15px;
+
+	margin-top:20px;
+	margin-left:20px;
+
+	padding:1.5px;
+	padding-right:11px;
+	padding-left: 11px;
+
 	display:inline-block;
 
 }
 
 #back:hover{
-	font-family: 'Futura', Helvetica, Arial, sans-serif;
-	text-decoration: none;
 	color:#ff0033;
-	padding:2px;
-	border:2px;
-	border-style:solid;
-	border-radius: 3px;
-	margin-top:10px;
-	margin-left:10px;
-	padding-right:15px;
-	padding-left: 15px;
-	display:inline-block;
 }
 
 /*h1{
@@ -69,8 +55,20 @@ img{
 }
 
 td{
-	padding-left:10px;
+	/*width:70%;*/
 }
+
+
+
+/*#header-links{
+	margin-top:relative;
+	margin-right:5px;
+	float:right;
+	display: inline-block;
+	background-color:transparent;
+	border:none;
+}*/
+
 /*#image1:hover{
 	width:80%;
 	height:80%;
