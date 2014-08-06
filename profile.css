@@ -100,6 +100,16 @@ img{
 	margin-top:1%;
 }
 
+a{
+	color:#ffadad;
+	text-decoration: dotted;
+}
+
+a:hover{
+	color:white;
+	text-decoration: none;
+}
+
 #about:hover{
 	background-color:#ff4747;
 }
