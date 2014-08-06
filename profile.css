@@ -63,19 +63,6 @@ body{
 	background-color:transparent;
 }*/
 
-#i-social{
-	color:white;
-	float:right;
-	display:inline-block;
-	margin-left: 5px;
-	margin-top:-30px;
-	margin-right: 5px;
-
-}
-
-
-
-
 #name{
 	display:table;
 	font-family: 'Sanchez', Helvetica, Arial, sans-serif;
@@ -136,6 +123,32 @@ p{
 	color:white;
 	text-align:center;
 }
+
+#hmu-h3{
+	color:#ffadad;
+	text-align: center;
+}
+
+#social{
+	display:table;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:4%;
+}
+
+#i-social{
+	display:inline-block;
+	color:#ffadad;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+#i-social:hover{
+	color:white;
+}
+
+
 
 
 
