@@ -1,5 +1,7 @@
+
+
 html{
-/*	padding:30px;*/
+
 	height:100%;
 }
 
@@ -66,19 +68,59 @@ body{
 #name{
 	display:table;
 	font-family: 'Sanchez', Helvetica, Arial, sans-serif;
-	margin-top: 5%;
+	margin-top: 10%;
 	margin-right:auto;
 	margin-left:auto;
 	letter-spacing: 0px;
 	color:white;
 	font-size: 30px;
 }
-img{
-	width:90%;
+
+#peek{
+	background-color: white;
+}
+
+#see-all-h2{
+	color:#ff4747;
+	font-family: 'Sanchez';
+	text-align: center;
+}
+
+#see-all-a:hover{
+	color:#ff4747;
+}
+
+#see-all-p{
+	padding-bottom: 20px;
+}
+
+.triangle {
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 25px solid #99FFCC;
+
+	margin-right: auto;
+	margin-left:auto;
+}
+
+#rectangle{
+	margin-top: 0%;
+	margin-right: auto;
+	margin-left:auto;
+
+	width: 200px;
+	height: 100px;
+	
+
+	background: #99FFCC;
+
+	border-radius:10px;
 }
 
 
-#about, #robotics, #hmu{
+#about, #robotics {
 	display:table;
 	font-family: 'Sanchez';
 	margin-top:15%;
@@ -97,18 +139,40 @@ img{
 }
 
 #robotics{
-	margin-top:1%;
+	padding-top:0%;
+	margin-top:0%;
 }
+
+#hmu{
+	display:table;
+	font-family: 'Sanchez';
+	margin-top:0%;
+	margin-right:auto;
+	margin-left:auto;
+
+	
+	padding-top:5%;
+	
+	background-color:#333333;
+	width:100%;
+	height:50%;
+	font-size:20px;
+
+	color:white;
+}
+
 
 a{
 	color:#ffadad;
-	text-decoration: dotted;
+	
 }
 
 a:hover{
-	color:white;
+	color:#ff4747;
 	text-decoration: none;
 }
+
+
 
 #about:hover{
 	background-color:#ff4747;
@@ -119,13 +183,15 @@ a:hover{
 }
 
 #hmu:hover{
-	background-color:#ff4747;
+	background-color:#333333;
 }
+
 
 p{
 	color:#ffadad;
 	font-family: "Rambla";
 	font-size:18px;
+
 
 }
 
@@ -135,20 +201,24 @@ p{
 }
 
 #hmu-h3{
-	color:#ffadad;
+	color:#757575;
 	text-align: center;
+}
+
+#comments-i{
+	margin-right:20px;
 }
 
 #social{
 	display:table;
 	margin-right:auto;
 	margin-left:auto;
-	margin-top:4%;
+	margin-top:2%;
 }
 
 #i-social{
 	display:inline-block;
-	color:#ffadad;
+	color:#ff4747;
 	margin-left: 20px;
 	margin-right: 20px;
 
@@ -157,6 +227,12 @@ p{
 #i-social:hover{
 	color:white;
 }
+
+#resume{
+	text-decoration: none;
+	color:#757575;
+}
+
 
 
 
