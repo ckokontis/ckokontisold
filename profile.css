@@ -67,13 +67,20 @@ body{
 
 #name{
 	display:table;
-	font-family: 'Sanchez', Helvetica, Arial, sans-serif;
+	font-family: 'Sanchez', Arial, sans-serif;
 	margin-top: 10%;
 	margin-right:auto;
 	margin-left:auto;
 	letter-spacing: 0px;
 	color:white;
 	font-size: 30px;
+}
+
+p{
+	color:#ffadad;
+	font-family: "Rambla";
+	font-size:18px;
+	/*display: inline-block;*/
 }
 
 #peek{
@@ -91,36 +98,111 @@ body{
 }
 
 #see-all-p{
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 .triangle {
 	width: 0; 
 	height: 0; 
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-bottom: 25px solid #99FFCC;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	border-bottom: 35px solid #99FFCC;
 
 	margin-right: auto;
 	margin-left:auto;
+	margin-bottom: 0px;
 }
 
 #rectangle{
-	margin-top: 0%;
+	/*position: relative;*/
+	display: table;
+	margin-top: -20px;
 	margin-right: auto;
 	margin-left:auto;
 
-	width: 200px;
-	height: 100px;
+
+	padding-top: 0%;
+
+	width: 600px;
+	height: 50px;
 	
 
 	background: #99FFCC;
 
 	border-radius:10px;
+
+	
+}
+
+#tags{
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+#i-tags{
+	/*position: relative;*/
+	
+	
+	color:white;
+}
+
+#rectangle:hover{
+	background-color: 
+}
+
+/*#cart{
+	column-width:200px;
+	-moz-column-width:200px;
+	-webkit-column-width:200px;
+}*/
+
+#column-for-sale{
+	width:500px;
+	height:100px;
+	column-width:500px;
+	-moz-column-width:500px;
+	-webkit-column-width:500px;
+}
+
+#for-sale{
+	/*display: inline-block;*/
+	/*margin-top: -10px;*/
+	margin-right: -10px;
+	position: relative;
+
+}
+
+#something-you-like-h{
+
+	font-family: 'Sanchez';
+	color:#00cc99;
+	display: inline-block;
+
+	margin-top: 5%;
+	margin-right: 20%;
+	float:right;
+	
+}
+
+#for-sale-p{
+	float:right;
+
+	color:white;
+	font-family: "Rambla";
+	font-size:18px;
+
+	margin-top: -20px;
+	margin-right: 10%;
 }
 
 
-#about, #robotics {
+
+
+#about{
+/*	position: relative;*/
+	z-index: -1;
 	display:table;
 	font-family: 'Sanchez';
 	margin-top:15%;
@@ -139,8 +221,21 @@ body{
 }
 
 #robotics{
-	padding-top:0%;
+	display:table;
+	font-family: 'Sanchez';
 	margin-top:0%;
+	margin-right:auto;
+	margin-left:auto;
+
+	
+	padding-top:0%;
+	
+	background-color:#FF6666;
+	width:100%;
+	height:50%;
+	font-size:20px;
+
+	color:white;
 }
 
 #hmu{
@@ -187,13 +282,7 @@ a:hover{
 }
 
 
-p{
-	color:#ffadad;
-	font-family: "Rambla";
-	font-size:18px;
 
-
-}
 
 #about-h, #robotics-h, #hmu-h{
 	color:white;
