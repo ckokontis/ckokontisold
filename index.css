@@ -83,56 +83,44 @@ p{
 	/*display: inline-block;*/
 }
 
+table{
+	padding-left: 2%;
+}
+
 #peek{
 	background-color: white;
+}
+
+#first-td{
+	margin-left: 60%;
 }
 
 #scale-down-img{
 	position: static;
 	visibility: visible;
-	width:100%;
+	width:94%;
 	margin-right: 6%;
 
 	z-index: -11;
 }
-
+/*
 #scale-down-img:hover{
 	opacity:0.5;
 
-}
+}*/
 
-#see-more-h2{
-	position: static;
-	visibility: hidden;
-	z-index: 1000;
-	font-family: 'Sanchez';
-	color:black;
 
-	border:2px;
-	border-radius: 3px;
-
-	margin-top;
-}
-
-#see-more-h2:hover{
-	visibility:visible;
-}
 
 #scale-down-img1{
 	width:94%;
 
-	margin-right:-40px;
+
 }
 
-#scale-down-img1:hover{
+/*#scale-down-img1:hover{
 	opacity:0.5;
-}
+}*/
 
-/*#scale-down-img2{
-	width:10%;
-	margin:0%;
-}
-*/
 
 #see-all-h2{
 	color:#ff4747;
