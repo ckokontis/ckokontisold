@@ -67,7 +67,7 @@ body{
 
 #name{
 	display:table;
-	font-family: 'Sanchez', Arial, sans-serif;
+	font-family: 'Arvo', Arial, sans-serif;
 	margin-top: 10%;
 	margin-right:auto;
 	margin-left:auto;
@@ -124,7 +124,7 @@ table{
 
 #see-all-h2{
 	color:#ff4747;
-	font-family: 'Sanchez';
+	font-family: 'Arvo';
 	text-align: center;
 }
 
@@ -213,7 +213,7 @@ table{
 
 #something-you-like-h{
 
-	font-family: 'Sanchez';
+	font-family: 'Arvo';
 	color:#00cc99;
 	display: inline-block;
 
@@ -240,7 +240,7 @@ table{
 #about{
 	z-index: -1;
 	display:table;
-	font-family: 'Sanchez';
+	font-family: 'Arvo';
 	margin-top:15%;
 	margin-right:auto;
 	margin-left:auto;
@@ -258,7 +258,7 @@ table{
 
 #robotics{
 	display:table;
-	font-family: 'Sanchez';
+	font-family: 'Arvo';
 	margin-top:0%;
 	margin-right:auto;
 	margin-left:auto;
@@ -274,9 +274,9 @@ table{
 	color:white;
 }
 
-#hmu{
+/*#hmu{
 	display:table;
-	font-family: 'Sanchez';
+	font-family: 'Arvo';
 	margin-top:0%;
 	margin-right:auto;
 	margin-left:auto;
@@ -290,7 +290,7 @@ table{
 	font-size:20px;
 
 	color:white;
-}
+}*/
 
 
 a{
