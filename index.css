@@ -27,7 +27,7 @@ body{
 
 #back{
 	font-size:15px;
-	font-family: 'Sanchez', Helvetica, Arial, sans-serif;
+	font-family: 'Arvo', Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	color:	#757575;
 	padding:2px;
@@ -44,7 +44,7 @@ body{
 #back:hover{
 	color:#ff5c5c;
 	font-size:15px;
-	font-family: 'Sanchez', Helvetica, Arial, sans-serif;
+	font-family: 'Arvo', Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	padding:2px;
 	border:2px;
