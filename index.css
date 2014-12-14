@@ -1,3 +1,180 @@
+/* General */
+
+.container {
+  /*width: 960px;*/
+  background-color: none;
+}
+
+
+/* Header */
+
+.header {
+  /*background-color: rgba(255, 255, 255, 0.95);*/
+  /*border-bottom: 1px solid #ddd;*/
+  
+  font-family: 'Special Elite', sans-serif;
+  font-weight: 300;
+  
+  font-size: 17px;
+  padding: 15px;
+}
+
+
+/* Menu */ 
+
+.header .menu {
+  
+  list-style: none;
+  margin-top: 5px;
+}
+
+.menu > li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.menu a {
+  color: #898989;
+  font-family: 'Special Elite';
+    letter-spacing: 2px;
+
+}
+
+/* Dropdown */
+
+.dropdown-menu {
+  font-size: 16px;
+  margin-top: 5px;
+  min-width: 105px;
+}
+
+.dropdown-menu li a {
+  color: #898989;
+  padding: 6px 20px;
+  font-weight: 300;
+}
+
+
+/* Carousel */
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  border-bottom: 1px ;
+}
+
+.slide {
+ /* background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;*/
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active-slide {
+    display: block;
+}
+
+/*.slide-copy h1 {
+  color: #363636;  
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin-top: 105px;
+  margin-bottom: 0px;
+}
+
+.slide-copy h2 {
+  color: #b7b7b7;
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin: 5px;
+}
+
+.slide-copy p {
+  color: #959595;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+}*/
+
+.slide-img {
+  text-align: right;
+}
+
+/* Slide feature */
+
+.slide-feature {
+  text-align: center;
+  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/ac.png');
+  height: 470px;
+}
+
+.slide-feature img {
+  margin-top: 112px;
+  margin-bottom: 28px;
+}
+
+.slide-feature a {
+  display: block;
+  color: #6fc5e0;
+  
+  font-family: "Special Elite", Helvetica, sans-serif;
+  font-family: 'Special Elite', sans-serif;
+  font-weight: 400;
+  
+  font-size: 20px;
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
 
 
 html{
@@ -6,80 +183,94 @@ html{
 }
 
 body{
-	background-color:#333333;
+	/*background-color:#1a1a1a;*/
+  background-color: white;
 	height:100%;
 	width:100%;
 	background-size: 100%;
 	background-repeat:no-repeat;
 	margin-right:0px;
-	margin-left:0px;
+	margin-left:30px;
 }
 
-
-/*a:hover{
-	display:inline-block;
-	color:#ff0033;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	margin-top: auto;
-	margin-right:auto;
-	margin-left:auto;
+/*span{
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-size: 40px;
 }*/
 
-#back{
-	font-size:15px;
-	font-family: 'Arvo', Helvetica, Arial, sans-serif;
-	text-decoration: none;
-	color:	#757575;
-	padding:2px;
-	border:2px;
-	display:inline-block;
-	border-style:solid;
-	padding-left:15px;
-	padding-right:15px;
-	border-radius: 3px;
-	margin-left: 15px;
+/*.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  
+  height: 100%;
+  position: fixed;
+  width: 285px;
 }
 
-
-#back:hover{
-	color:#ff5c5c;
-	font-size:15px;
-	font-family: 'Arvo', Helvetica, Arial, sans-serif;
-	text-decoration: none;
-	padding:2px;
-	border:2px;
-	border-style:solid;
-	display:inline-block;
-
-	padding-left:15px;
-	padding-right:15px;	
-	border-radius: 3px;
-	margin-left: 15px;
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-/*#header-links{
-	margin-top:10px;
-	margin-right:2px;
-	float:right;
-	display: inline-block;
-	background-color:transparent;
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
 }*/
 
 #name{
 	display:table;
-	font-family: 'Arvo', Arial, sans-serif;
-	margin-top: 10%;
+  /*font-family: 'Arvo', serif;*/
+  font-family: 'Special Elite', cursive;
+	margin-top: 5%;
 	margin-right:auto;
 	margin-left:auto;
-	letter-spacing: 0px;
-	color:white;
+	letter-spacing: 4px;
+	color:#1F3D5C;
 	font-size: 30px;
 }
 
+
 p{
 	color:#c9f5e3;
-	font-family: "Rambla";
-	font-size:18px;
+	/*font-family: "Helvetica";*/
+  font-family: 'Special Elite', serif;
+	font-size:30px;
+  text-transform: uppercase;
 	/*display: inline-block;*/
 }
 
@@ -87,9 +278,7 @@ table{
 	padding-left: 2%;
 }
 
-#peek{
-	background-color: white;
-}
+
 
 #first-td{
 	margin-left: 60%;
@@ -103,12 +292,6 @@ table{
 
 	z-index: -11;
 }
-/*
-#scale-down-img:hover{
-	opacity:0.5;
-
-}*/
-
 
 
 #scale-down-img1{
@@ -117,183 +300,7 @@ table{
 
 }
 
-/*#scale-down-img1:hover{
-	opacity:0.5;
-}*/
-
-
-#see-all-h2{
-	color:#ff4747;
-	font-family: 'Arvo';
-	text-align: center;
-}
-
-#see-all-a:hover{
-	color:#ff4747;
-}
-
-#see-all-p{
-	padding-bottom: 10px;
-	margin-bottom: 0px;
-}
-
-.triangle {
-	width: 0; 
-	height: 0; 
-	border-left: 35px solid transparent;
-	border-right: 35px solid transparent;
-	border-bottom: 35px solid #99FFCC;
-
-	margin-right: auto;
-	margin-left:auto;
-	margin-bottom: 0px;
-}
-
-#rectangle{
-	/*position: relative;*/
-	display: table;
-	margin-top: -20px;
-	margin-right: auto;
-	margin-left:auto;
-
-
-	padding-top: 0%;
-
-	width: 600px;
-	height: 50px;
-	
-
-	background: #99FFCC;
-
-	border-radius:10px;
-
-	
-}
-
-#tags{
-	display: inline-block;
-	margin-left: 7%;
-	margin-top: 5%;
-}
-
-#i-tags{
-	/*position: relative;*/
-	
-	
-	color:white;
-}
-
-#rectangle:hover{
-	background-color: 
-}
-
-/*#cart{
-	column-width:200px;
-	-moz-column-width:200px;
-	-webkit-column-width:200px;
-}*/
-
-#column-for-sale{
-	width:500px;
-	height:100px;
-	column-width:500px;
-	-moz-column-width:500px;
-	-webkit-column-width:500px;
-}
-
-
-
-#for-sale{
-	/*display: inline-block;*/
-	/*margin-top: -10px;*/
-	margin-right: -10px;
-	position: relative;
-
-}
-
-#something-you-like-h{
-
-	font-family: 'Arvo';
-	color:#00cc99;
-	display: inline-block;
-
-	margin-top: 5%;
-	margin-right: 20%;
-	float:right;
-	
-}
-
-#for-sale-p{
-	float:right;
-
-	color:white;
-	font-family: "Rambla";
-	font-size:18px;
-
-	margin-top: -20px;
-	margin-right: 10%;
-}
-
-
-
-
-#about{
-	z-index: -1;
-	display:table;
-	font-family: 'Arvo';
-	margin-top:15%;
-	margin-right:auto;
-	margin-left:auto;
-
-	
-	padding-top:5%;
-	
-	background-color:#1d9d74;
-	width:100%;
-	height:50%;
-	font-size:20px;
-
-	color:white;
-}
-
-#robotics{
-	display:table;
-	font-family: 'Arvo';
-	margin-top:0%;
-	margin-right:auto;
-	margin-left:auto;
-
-	
-	padding-top:0%;
-	
-	background-color:#1d9d74;
-	width:100%;
-	height:50%;
-	font-size:20px;
-
-	color:white;
-}
-
-/*#hmu{
-	display:table;
-	font-family: 'Arvo';
-	margin-top:0%;
-	margin-right:auto;
-	margin-left:auto;
-
-	
-	padding-top:5%;
-	
-	background-color:#333333;
-	width:100%;
-	height:50%;
-	font-size:20px;
-
-	color:white;
-}*/
-
-
-a{
+/*a{
 	color:#00cc99;
 	
 }
@@ -301,22 +308,6 @@ a{
 a:hover{
 	color:#ff4747;
 	text-decoration: none;
-}
-
-
-
-#about:hover{
-	background-color:#aab50e;
-	/*background-color:#959dcc;*/
-}
-
-#robotics:hover{
-	background-color:#ccde59;
-
-}
-
-#hmu:hover{
-	background-color:#333333;
 }
 
 
@@ -351,50 +342,9 @@ a:hover{
 
 }
 
-#i-social:hover{
-	color:#ccde59;
-}
-
 #resume{
 	text-decoration: none;
 	color:#757575;
-}
-
-
-
-
-
-
-
-
-
-/*#line{
-	color:white;
-	display:table;
-	letter-spacing: 0px;
-}*/
-
-/*a:-webkit-any-link{
-color: white;
-text-decoration: none;
-cursor: auto;
-}*/
-
-
-
-/*#hobbies{
-
-	color:white;
-	font-family:'Sanchez', Georgia, Times, serif;
-	font-size:100%;
-	display:inline-block;
-	float:center;
-	margin-right:50%;
-	margin-left:50%;
-}*/
-
-/*#hobbies:hover{
-	color:#ff0033;
 }*/
 
 /*!
